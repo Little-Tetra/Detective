@@ -1,5 +1,5 @@
-from detective.app import DetectiveApp
+from detective import Detective
 
 if __name__ == '__main__':
-    app = DetectiveApp()
+    app = Detective()
     app.run()
